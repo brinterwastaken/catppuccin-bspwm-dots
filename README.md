@@ -22,8 +22,8 @@ yay -S bspwm sxhkd rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa-uti
 Dotfiles for my bspwm setup (catppuccin color scheme)\
 
 ## TODO
-- [] Notification daemon configuration
-- [] More screenshots in Readme
+- [ ] Notification daemon configuration
+- [ ] More screenshots in Readme
 
 <details>
   <summary>Memory Usage</summary>
