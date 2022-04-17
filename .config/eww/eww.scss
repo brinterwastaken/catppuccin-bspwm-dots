@@ -98,7 +98,7 @@ $lightener2: rgba(212, 206, 230, 0.2);
   padding: 0;
 }
 .powermenu-title label {
-  background-color: $bg1;
+  background-color: $lightener1;
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
@@ -107,13 +107,13 @@ $lightener2: rgba(212, 206, 230, 0.2);
   margin: 0px 20px 20px 20px;
 }
 .powermenu-buttons button {
-  background-color: $bg1;
+  background-color: $lightener1;
   border-radius: 10px;
   font-size: 40px;
   transition: all 150ms;
 }
 .powermenu-buttons button:hover {
-  background-color: $bg2;
+  background-color: $lightener2;
   color: $accent;
 }
 .player {
