@@ -1,0 +1,147 @@
+* {
+  all: unset; //Unsets everything so you can style everything from scratch
+}
+// Variables
+
+$bg0: rgba(30, 29, 47, 0.7);
+$bg0-alt: rgba(30, 29, 47, 1);
+$bg1: #302D41;
+$bg2: #575268;
+$accent: #7aa2f7;
+$accent1: #96CDFB;
+$lightener1: rgba(212, 206, 230, 0.1); 
+$lightener2: rgba(212, 206, 230, 0.2); 
+
+
+//Global Styles
+.bar {
+  padding: 0;
+  background-color: $bg0;
+  color: #cbd0da;
+  font-family: 'JetBrainsMono Nerd Font';
+}
+
+// Styles on classes (see eww.yuck for more information)
+.sidestuff {
+  background-color: $bg1;
+  padding: 5px 15px 5px 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.sidestuff slider {
+  all: unset;
+}
+
+.metric scale trough highlight {
+  all: unset;
+  background-color: $accent;
+  color: #000000;
+  border-radius: 10px;
+}
+.metric scale trough {
+  all: unset;
+  background-color: $bg2;
+  border-radius: 50px;
+  min-height: 3px;
+  min-width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.metric scale trough highlight {
+  all: unset;
+  background: linear-gradient(90deg, $accent 0%, $accent1 100%);
+  color: #000000;
+  border-radius: 10px;
+}
+.metric scale trough {
+  all: unset;
+  background-color: $bg2;
+  border-radius: 50px;
+  min-height: 10px;
+  min-width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.label {
+  font-size:large;
+}
+.workspaces {
+  background-color: $bg1;
+  padding: 5px 15px 5px 15px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.workspaces button:hover {
+  color: $accent;
+}
+.launchers {
+  margin-left: 5px;
+}
+.menu {
+  background-color: $bg1;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 5px 5px 0px;
+  border-radius: 10px;
+}
+.menu:hover {
+  color: $accent;
+}
+.menu button:hover {
+  color: $accent;
+}
+.powermenu {
+  background-color: $bg0;
+  color: #cbd0da;
+  font-family: 'JetBrainsMono Nerd Font';
+  padding: 0;
+}
+.powermenu-title label {
+  background-color: $bg1;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+.powermenu-buttons {
+  margin: 0px 20px 20px 20px;
+}
+.powermenu-buttons button {
+  background-color: $bg1;
+  border-radius: 10px;
+  font-size: 40px;
+  transition: all 150ms;
+}
+.powermenu-buttons button:hover {
+  background-color: $bg2;
+  color: $accent;
+}
+.player {
+  padding: 20px;
+  background-color: $bg0;
+}
+.player button {
+  font-size: 30px;
+  min-width: 80px;
+  background-color: $lightener1;
+  border-radius: 7px;
+  padding: 5px 10px 5px 10px;
+  transition: all 150ms;
+}
+.player button:hover {
+  background-color: $lightener2;
+  color: $accent;
+}
+.musicinfo {
+  min-width: 310px;
+  min-height: 100px;
+  background-color: $lightener1;
+  padding: 15px;
+  border-radius: 7px;
+}
+.artimg {
+  border-radius: 7px;
+  background-size: cover;
+  min-width: 200px;
+  min-height: 200px;
+}
