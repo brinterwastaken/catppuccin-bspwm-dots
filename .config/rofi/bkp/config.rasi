@@ -1,0 +1,19 @@
+configuration {
+	modi: "drun";
+	font: "Iosevka Nerd Font 13";
+	location: 7;
+	yoffset: -60;
+	xoffset: 20;
+	show-icons: true;
+    display-drun: "";
+    drun-display-format: "{name}";
+    timeout {
+        action: "kb-cancel";
+        delay:  0;
+    }
+    filebrowser {
+        directories-first: true;
+        sorting-method:    "name";
+    }
+}
+@theme "~/.config/rofi/themes/blur.rasi"
