@@ -11,7 +11,7 @@
   
   <br>
   <h3>Screenshot</h3>
-  <img src="https://media.discordapp.net/attachments/635625917623828520/964837446820974612/unknown.png" style="width: 90%">
+  <img src="https://media.discordapp.net/attachments/786240300095897610/965184674836131850/unknown.png" style="width: 90%">
 </div>
 
 ## Dependencies (Some packages are in AUR)
