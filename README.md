@@ -13,7 +13,9 @@
 </div>
 
 ## Dependencies (Some packages are in AUR)
-`bspwm sxhkd rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa-utils neovim alacritty cava`
+```
+yay -S bspwm sxhkd rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa-utils neovim alacritty cava
+```
 
 Dotfiles for my bspwm setup (catppuccin color scheme)\
 Uses `blurlocker` for lockscreen
