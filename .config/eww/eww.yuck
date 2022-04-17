@@ -117,7 +117,7 @@
 
 (defwindow bar
   :monitor 0
-  :windowtype "desktop"
+  :windowtype "dock"
   :geometry (geometry :x "0%"
                       :y "0%"
                       :width "1920px"
