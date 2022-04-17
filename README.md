@@ -3,10 +3,12 @@
   BSPWM dotfiles
 </h1>
 <div align="center">
-  <img src="https://img.shields.io/static/v1?label=Window%20Manager&message=bspwm&style=for-the-badge&color=DDB6F2&logoColor=D9E0EE&labelColor=302D41">
-  <img src="https://img.shields.io/static/v1?label=Bar&message=eww&style=for-the-badge&color=FAE3B0&logoColor=D9E0EE&labelColor=302D41">
-  <img src="https://img.shields.io/static/v1?label=Color%20Scheme&message=catppuccin&style=for-the-badge&color=ABE9B3&logoColor=D9E0EE&labelColor=302D41">
-  <img src="https://img.shields.io/static/v1?label=OS&message=arch&style=for-the-badge&color=96CDFB&logoColor=D9E0EE&labelColor=302D41">
+  
+  [![Window Manager - BSPWM](https://img.shields.io/static/v1?label=Window%20Manager&message=bspwm&style=for-the-badge&color=DDB6F2&logoColor=D9E0EE&labelColor=302D41)](https://github.com/baskerville/bspwm/)
+  [![Bar - EWW widgets](https://img.shields.io/static/v1?label=Bar&message=eww&style=for-the-badge&color=FAE3B0&logoColor=D9E0EE&labelColor=302D41)](https://elkowar.github.io/eww/)
+  [![Colorscheme - Catppuccin](https://img.shields.io/static/v1?label=Color%20Scheme&message=catppuccin&style=for-the-badge&color=ABE9B3&logoColor=D9E0EE&labelColor=302D41)](https://github.com/catppuccin/catppuccin)
+  [![OS - Arch](https://img.shields.io/static/v1?label=OS&message=arch&style=for-the-badge&color=96CDFB&logoColor=D9E0EE&labelColor=302D41)](https://archlinux.org/)
+  
   <br>
   <h3>Screenshot</h3>
   <img src="https://media.discordapp.net/attachments/635625917623828520/964837446820974612/unknown.png" style="width: 90%">
