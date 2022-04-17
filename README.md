@@ -16,7 +16,7 @@
 
 ## Dependencies (Some packages are in AUR)
 ```
-yay -S bspwm sxhkd rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa-utils neovim alacritty cava
+yay -S bspwm sxhkd feh rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa-utils neovim alacritty cava
 ```
 ## Install
 - Backup your existing configurations, then copy `.config` and `.local` to your home directory.\
@@ -26,6 +26,7 @@ Dotfiles for my bspwm setup (catppuccin color scheme)\
 ## TODO
 - [ ] Notification daemon configuration
 - [ ] More screenshots in Readme
+- [ ] Add allpaper
 
 <details>
   <summary>Memory Usage</summary>
