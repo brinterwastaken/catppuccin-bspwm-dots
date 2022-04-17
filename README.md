@@ -15,3 +15,10 @@
 
 Dotfiles for my bspwm setup (catppuccin color scheme)\
 Uses `blurlocker` for lockscreen
+
+<details>
+  <summary>Memory Usage</summary>
+  
+  - The high memory usage in the screenshot is because of discord, firefox and vscode. On a fresh boot memory usage is around 700MiB
+
+</details>
