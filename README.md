@@ -26,7 +26,7 @@ Dotfiles for my bspwm setup (catppuccin color scheme)\
 ## TODO
 - [ ] Notification daemon configuration
 - [ ] More screenshots in Readme
-- [ ] Add allpaper
+- [ ] Add wallpaper
 
 <details>
   <summary>Memory Usage</summary>
