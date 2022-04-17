@@ -26,7 +26,7 @@ yay -S bspwm sxhkd feh rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa
 ## TODO
 - [ ] Notification daemon configuration
 - [ ] More screenshots in Readme
-- [ ] Add wallpaper
+- [x] Add wallpaper
 
 <details>
   <summary>Memory Usage</summary>
