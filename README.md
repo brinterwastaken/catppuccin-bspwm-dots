@@ -20,8 +20,7 @@ yay -S bspwm sxhkd feh rofi eww-git picom-ibhagwan-git blurlocker playerctl alsa
 ```
 ## Install
 - Backup your existing configurations, then copy `.config` and `.local` to your home directory.
-- If things dont appear as they are supposed to, make sure the scripts in ~/.local/bin and ~/.config/eww/scripts are executable with `chmod +x file`
-Dotfiles for my bspwm setup (catppuccin color scheme)
+- If things dont appear as they are supposed to, make sure the scripts in ~/.local/bin and ~/.config/eww/scripts are executable with `chmod +x file`. Also make sure the bspwmrc and sxhkdrc are executable.
 
 ## TODO
 - [ ] Notification daemon configuration
