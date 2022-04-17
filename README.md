@@ -19,6 +19,6 @@ Uses `blurlocker` for lockscreen
 <details>
   <summary>Memory Usage</summary>
   
-  - The high memory usage in the screenshot is because i have discord, firefox and vscode open. On a fresh boot memory usage is around 700MiB
+  The high memory usage in the screenshot is because i have discord, firefox and vscode open. On a fresh boot memory usage is around 700MiB
 
 </details>
