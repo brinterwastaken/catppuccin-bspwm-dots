@@ -73,17 +73,17 @@
 )
 
 (defwidget power []
-  (box :class "powermenu" :orientation "v" :space-evenly true :spacing -20
+  (box :class "powermenu" :orientation "v" :space-evenly true :spacing 0
     (box :class "powermenu-title" :valign "start"
       (label :text "Uptime: ${uptime}")
     )
-    (box :class "powermenu-buttons" :orientation "h" :space-evenly true :spacing 20
-      (eventbox :cursor "hand" (button :onclick "eww close power && shutdown now" "襤"))
-      (eventbox :cursor "hand" (button :onclick "eww close power && reboot" "ﰇ"))
-      (eventbox :cursor "hand" (button :onclick "eww close power && sleep 0.5 && blurlocker & sleep 0.5 && amixer set Master mute && systemctl suspend &" "鈴"))
-      (eventbox :cursor "hand" (button :onclick "eww close power && sleep 0.5 && blurlocker & sleep 0.5 && amixer set Master mute && systemctl hibernate &" "望"))
-      (eventbox :cursor "hand" (button :onclick "eww close power && sleep 0.5 && blurlocker &" ""))
-    )
+    (eventbox :cursor "hand" (box :class "powermenu-buttons" :orientation "h" :space-evenly true :spacing 0
+      (button :onclick "eww close power && shutdown now" "襤")
+      (button :onclick "eww close power && reboot" "ﰇ")
+      (button :onclick "eww close power && sleep 0.5 && blurlocker & sleep 0.5 && amixer set Master mute && systemctl suspend &" "鈴")
+      (button :onclick "eww close power && sleep 0.5 && blurlocker & sleep 0.5 && amixer set Master mute && systemctl hibernate &" "望")
+      (button :onclick "eww close power && sleep 0.5 && blurlocker &" "")
+    ))
   )
 )
 (defpoll playerctl :interval "1s"
@@ -100,7 +100,7 @@
   :geometry (geometry :x "-20px"
                       :y "-60px"
                       :width "480px"
-                      :height "170px"
+                      :height "180px"
                       :anchor "bottom right")
   (power)
 )

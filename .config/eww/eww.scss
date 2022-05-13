@@ -9,6 +9,7 @@ $bg1: #302D41;
 $bg2: #575268;
 $accent: #7aa2f7;
 $accent1: #96CDFB;
+$accent2: rgba(221, 182, 242, 0.25);
 $lightener1: rgba(212, 206, 230, 0.1); 
 $lightener2: rgba(212, 206, 230, 0.2); 
 
@@ -98,19 +99,27 @@ $lightener2: rgba(212, 206, 230, 0.2);
   padding: 0;
 }
 .powermenu-title label {
-  background-color: $lightener1;
-  border-radius: 10px;
+  background: linear-gradient($accent2, $lightener1);
+  border-radius: 7px 7px 0px 0px;
   padding: 10px;
-  margin: 20px;
+  margin: 20px 20px 0px 20px;
+  min-height: 50px;
 }
 .powermenu-buttons {
   margin: 0px 20px 20px 20px;
 }
 .powermenu-buttons button {
+  min-height: 60px;
   background-color: $lightener1;
-  border-radius: 10px;
+  border-radius: 0px;
   font-size: 40px;
   transition: all 150ms;
+}
+.powermenu-buttons button:nth-child(1) {
+  border-radius: 0px 0px 0px 7px;
+}
+.powermenu-buttons button:nth-child(5) {
+  border-radius: 0px 0px 7px 0px;
 }
 .powermenu-buttons button:hover {
   background-color: $lightener2;
@@ -122,22 +131,31 @@ $lightener2: rgba(212, 206, 230, 0.2);
 }
 .player button {
   font-size: 30px;
-  min-width: 80px;
+  min-width: 100px;
   background-color: $lightener1;
-  border-radius: 7px;
+  border-radius: 0px 0px 10px 10px;
   padding: 5px 10px 5px 10px;
   transition: all 150ms;
+}
+.player button:nth-child(1) {
+  border-radius: 0px 0px 0px 7px;
+}
+.player button:nth-child(2) {
+  border-radius: 0px;
+}
+.player button:nth-child(3) {
+  border-radius: 0px 0px 7px 0px;
 }
 .player button:hover {
   background-color: $lightener2;
   color: $accent;
 }
 .musicinfo {
-  min-width: 310px;
-  min-height: 100px;
-  background-color: $lightener1;
+  min-width: 330px;
+  min-height: 120px;
+  background: linear-gradient($accent2, $lightener1);
   padding: 15px;
-  border-radius: 7px;
+  border-radius: 7px 7px 0px 0px;
 }
 .artimg {
   border-radius: 7px;
